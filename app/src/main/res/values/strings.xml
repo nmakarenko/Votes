@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Votes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bill_detail">BillDetailActivity</string>
+    <string name="title_activity_client_server">ClientServerActivity</string>
+    <string name="main_title">Тестова міська рада\nтестових народних депутатів</string>
+
+    <string name="title_activity_poll_results">PollResults</string>
+    <string name="by">\"ЗА\" - </string>
+    <string name="against">\"ПРОТИ\" - </string>
+    <string name="abstentions">\"УТРИМАЛОСЬ\" - </string>
+    <string name="by2">\"ЗА\"</string>
+    <string name="against2">\"ПРОТИ\"</string>
+    <string name="abstentions2">\"УТРИМУЮСЬ\"</string>
+    <string name="cancel_poll">\"ВИ ХОЧЕТЕ СКАСУВАТИ ГОЛОСУВАННЯ\"</string>
+    <string name="no_poll">\"ВИ НЕ ПРОГОЛОСУВАЛИ\"</string>
+    <string name="regist_title">Шановний Депутат Депутатович!</string>
+    <string name="regisr_sessia">Зареєструйтесь на сесію №</string>
+    <string name="regisr_result_yes">Ви зареєструвались</string>
+    <string name="regisr_result_no">Ви не зареєєструвались</string>
+    <string name="title_activity_head_time_regist">HeadTimeRegist</string>
+    <string name="regisr_sessia_head">Реєстрація на сесію №</string>
+    <string name="result_sessia_head">Результати голосування на сесію</string>
+    <string name="resut_all">Всього - </string>
+    <string name="result_reg">Зареєстровано - </string>
+    <string name="result_eps">Відсутні - </string>
+    <string name="qvorum">Кворум </string>
+</resources>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#dedede"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/white"
+            android:text="Завершити сесію"
+            android:id="@+id/btCloseSession"
+            android:visibility="gone"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Порядок денний"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/white"
+            android:text="Client Server"
+            android:id="@+id/btClientServer"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Голова"
+            android:id="@+id/cbHead"
+            android:paddingRight="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/white"
+            android:text="Start Service"
+            android:id="@+id/btStartService"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:textColor="@android:color/white"
+            android:text="Stop Service"
+            android:id="@+id/btStopService"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:id="@+id/lvBills">
+
+    </ListView>
+
+</LinearLayout>
